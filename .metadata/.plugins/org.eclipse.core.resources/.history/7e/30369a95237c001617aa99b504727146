@@ -1,0 +1,17 @@
+package Model;
+
+public class ContactService 
+{
+
+	public ContactService()
+	{
+		
+		
+	}
+	
+	public void createContact()
+	{
+		ContactDAO dao = new ContactDAO();
+		
+	}
+}

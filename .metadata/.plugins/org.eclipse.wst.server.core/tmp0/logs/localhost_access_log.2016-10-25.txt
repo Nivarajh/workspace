@@ -1,0 +1,6 @@
+127.0.0.1 - - [25/Oct/2016:08:34:44 +0200] "GET / HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [25/Oct/2016:08:34:46 +0200] "GET /ContactApplication/index.html HTTP/1.1" 200 816
+0:0:0:0:0:0:0:1 - - [25/Oct/2016:08:34:49 +0200] "GET /ContactApplication/createContact.jsp HTTP/1.1" 200 1107
+0:0:0:0:0:0:0:1 - - [25/Oct/2016:08:34:53 +0200] "GET /ContactApplication/fetchContact.jsp HTTP/1.1" 200 837
+0:0:0:0:0:0:0:1 - - [25/Oct/2016:08:34:55 +0200] "GET /ContactApplication/login.jsp HTTP/1.1" 200 989
+0:0:0:0:0:0:0:1 - - [25/Oct/2016:08:34:58 +0200] "GET /ContactApplication/createContact.jsp HTTP/1.1" 200 1107

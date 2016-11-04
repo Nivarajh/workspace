@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_KQz0sKKkEearZfqmuVBQxQ" name="td3amende">
+    <eAnnotations xmi:id="_Kh8oA6KkEearZfqmuVBQxQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Kh8oBKKkEearZfqmuVBQxQ" source="codegen">
+        <details xmi:id="_Kh8oBaKkEearZfqmuVBQxQ" key="codegenDirectory" value="/td3amende/src"/>
+        <details xmi:id="_KmHWUKKkEearZfqmuVBQxQ" key="AssociatedSourceCode" value="/td3amende/src/exoAmende/Amende.java;554168308/1;/td3amende/src/exoAmende/ClassMain.java;1140124440/1;/td3amende/src/exoAmende/Commissariat.java;3347208824/1;/td3amende/src/exoAmende/Ministere.java;1340231040/1;/td3amende/src/exoAmende/Smartphone.java;2682271914/1;/td3amende/src/exoAmende/StatCommissariat.java;3910521947/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_KhptEKKkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_KhptEaKkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_KhptEqKkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_KhptE6KkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_KhptFKKkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_KhptFaKkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_KhptFqKkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_KhptF6KkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_KhptGKKkEearZfqmuVBQxQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KhptGaKkEearZfqmuVBQxQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KhptGqKkEearZfqmuVBQxQ" name="modeliosoft">
+        <packagedElement xmi:type="uml:Package" xmi:id="_KhptG6KkEearZfqmuVBQxQ" name="modelio">
+          <packagedElement xmi:type="uml:Package" xmi:id="_KhptHKKkEearZfqmuVBQxQ" name="javadesigner">
+            <packagedElement xmi:type="uml:Package" xmi:id="_KhptHaKkEearZfqmuVBQxQ" name="annotations">
+              <packagedElement xmi:type="uml:Class" xmi:id="_KiZT8KKkEearZfqmuVBQxQ" name="objid"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KhptHqKkEearZfqmuVBQxQ" name="exoAmende">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Kh8oAKKkEearZfqmuVBQxQ" name="Amende">
+        <ownedAttribute xmi:id="_KisO4KKkEearZfqmuVBQxQ" name="categorie">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_KiFx8KKkEearZfqmuVBQxQ" name="Amende">
+          <eAnnotations xmi:id="_KiFx8aKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_KiFx8qKkEearZfqmuVBQxQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_KiFx86KkEearZfqmuVBQxQ" type="_Kh8oAKKkEearZfqmuVBQxQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KiFx-qKkEearZfqmuVBQxQ" name="ClassMain">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ki1__qKkEearZfqmuVBQxQ" name="main" specification="_KiFx_KKkEearZfqmuVBQxQ">
+          <ownedParameter xmi:id="_Ki1__6KkEearZfqmuVBQxQ" name="arg">
+            <eAnnotations xmi:id="_Ki2AAKKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ki2AAaKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ki2AAqKkEearZfqmuVBQxQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Ministere m = new Ministere();&#xD;
+     StatCommissariat s = new StatCommissariat();&#xD;
+     Commissariat c = new Commissariat(m, s);&#xD;
+     Smartphone sm = new Smartphone(c);&#xD;
+     sm.executer();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_KiFx_KKkEearZfqmuVBQxQ" name="main" isStatic="true" method="_Ki1__qKkEearZfqmuVBQxQ">
+          <ownedParameter xmi:id="_KiFx_aKkEearZfqmuVBQxQ" name="arg">
+            <eAnnotations xmi:id="_KiFx_6KkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_KiFyAKKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KiFx_qKkEearZfqmuVBQxQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KiFyCKKkEearZfqmuVBQxQ" name="Commissariat">
+        <ownedAttribute xmi:id="_KisO8aKkEearZfqmuVBQxQ" name="monStat" visibility="private" type="_KiPjBKKkEearZfqmuVBQxQ" association="_Ki_J0KKkEearZfqmuVBQxQ"/>
+        <ownedAttribute xmi:id="_KisO9aKkEearZfqmuVBQxQ" name="leMinistere" visibility="private" type="_KiFyDaKkEearZfqmuVBQxQ" association="_Ki_J06KkEearZfqmuVBQxQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ki2AA6KkEearZfqmuVBQxQ" name="enregistrer" specification="_Kiid4aKkEearZfqmuVBQxQ">
+          <ownedParameter xmi:id="_Ki2ABKKkEearZfqmuVBQxQ" name="uneAmende" type="_Kh8oAKKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Ki2ABaKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ki2ABqKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <language>java</language>
+          <body>monStat.setCptCatA(1);&#xD;
+     leMinistere. consulter(monStat);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ki2AB6KkEearZfqmuVBQxQ" name="Commissariat" specification="_Kiid6KKkEearZfqmuVBQxQ">
+          <ownedParameter xmi:id="_Ki2ACKKkEearZfqmuVBQxQ" name="ministere" type="_KiFyDaKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Ki2ACaKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ki2ACqKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ki2AC6KkEearZfqmuVBQxQ" name="stat" type="_KiPjBKKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Ki2ADKKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ki2ADaKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ki2ADqKkEearZfqmuVBQxQ" type="_KiFyCKKkEearZfqmuVBQxQ" direction="return"/>
+          <language>java</language>
+          <body>leMinistere = ministere;&#xD;
+     monStat = stat;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Kiid4aKkEearZfqmuVBQxQ" name="enregistrer" method="_Ki2AA6KkEearZfqmuVBQxQ">
+          <ownedParameter xmi:id="_Kiid4qKkEearZfqmuVBQxQ" name="uneAmende" type="_Kh8oAKKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Kiid46KkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Kiid5KKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Kiid6KKkEearZfqmuVBQxQ" name="Commissariat" method="_Ki2AB6KkEearZfqmuVBQxQ">
+          <eAnnotations xmi:id="_Kiid66KkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Kiid7KKkEearZfqmuVBQxQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Kiid6aKkEearZfqmuVBQxQ" name="ministere" type="_KiFyDaKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Kiid7qKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Kiid76KkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Kiid6qKkEearZfqmuVBQxQ" name="stat" type="_KiPjBKKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Kiid8KKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Kiid8aKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Kiid7aKkEearZfqmuVBQxQ" type="_KiFyCKKkEearZfqmuVBQxQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KiFyDaKkEearZfqmuVBQxQ" name="Ministere">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ki2AD6KkEearZfqmuVBQxQ" name="consulter" specification="_Kiid9aKkEearZfqmuVBQxQ">
+          <ownedParameter xmi:id="_Ki2AEKKkEearZfqmuVBQxQ" name="unStat" type="_KiPjBKKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Ki2AEaKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ki2AEqKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;nb catA = &quot;+unStat.getCptCatA());&#xD;
+     System.out.println(&quot;nb catB = &quot;+unStat.getCptCatB());   &#xD;
+     System.out.println(&quot;nb catC = &quot;+unStat.getCptCatC());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_KiPi8aKkEearZfqmuVBQxQ" name="Ministere">
+          <eAnnotations xmi:id="_KiPi8qKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_KiPi86KkEearZfqmuVBQxQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_KiPi9KKkEearZfqmuVBQxQ" type="_KiFyDaKkEearZfqmuVBQxQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Kiid9aKkEearZfqmuVBQxQ" name="consulter" method="_Ki2AD6KkEearZfqmuVBQxQ">
+          <ownedParameter xmi:id="_Kiid9qKkEearZfqmuVBQxQ" name="unStat" type="_KiPjBKKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Kiid96KkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Kiid-KKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KiPi-6KkEearZfqmuVBQxQ" name="Smartphone">
+        <ownedAttribute xmi:id="_KisO-aKkEearZfqmuVBQxQ" name="mesAmendes" visibility="private" type="_Kh8oAKKkEearZfqmuVBQxQ" isOrdered="true" association="_Ki_J1qKkEearZfqmuVBQxQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KisO-qKkEearZfqmuVBQxQ" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_KisO-6KkEearZfqmuVBQxQ" value="new ArrayList&lt;Amende> ()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_KisO_6KkEearZfqmuVBQxQ" name="monCommissariat" visibility="private" type="_KiFyCKKkEearZfqmuVBQxQ" association="_Ki_J2aKkEearZfqmuVBQxQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ki2AE6KkEearZfqmuVBQxQ" name="Smartphone" specification="_Kiid_qKkEearZfqmuVBQxQ">
+          <ownedParameter xmi:id="_Ki2AFKKkEearZfqmuVBQxQ" name="comm" type="_KiFyCKKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_Ki2AFaKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ki2AFqKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ki2AF6KkEearZfqmuVBQxQ" type="_KiPi-6KkEearZfqmuVBQxQ" direction="return"/>
+          <language>java</language>
+          <body>monCommissariat = comm;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ki2AGKKkEearZfqmuVBQxQ" name="executer" specification="_KiPi_aKkEearZfqmuVBQxQ">
+          <language>java</language>
+          <body>Amende a = new Amende();&#xD;
+     a.setCategorie(&quot;A&quot;);&#xD;
+     mesAmendes.add(a);&#xD;
+     monCommissariat.enregistrer(a);&#xD;
+     System.out.println(&quot;FIN&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_KiPi_aKkEearZfqmuVBQxQ" name="executer" method="_Ki2AGKKkEearZfqmuVBQxQ"/>
+        <ownedOperation xmi:id="_Kiid_qKkEearZfqmuVBQxQ" name="Smartphone" method="_Ki2AE6KkEearZfqmuVBQxQ">
+          <eAnnotations xmi:id="_KiieAKKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_KiieAaKkEearZfqmuVBQxQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Kiid_6KkEearZfqmuVBQxQ" name="comm" type="_KiFyCKKkEearZfqmuVBQxQ">
+            <eAnnotations xmi:id="_KiieA6KkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_KiieBKKkEearZfqmuVBQxQ" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <ownedParameter xmi:id="_KiieAqKkEearZfqmuVBQxQ" type="_KiPi-6KkEearZfqmuVBQxQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KiPjBKKkEearZfqmuVBQxQ" name="StatCommissariat">
+        <ownedAttribute xmi:id="_KisPA6KkEearZfqmuVBQxQ" name="cptCatA">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_KisPBKKkEearZfqmuVBQxQ" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_KisPFaKkEearZfqmuVBQxQ" name="cptCatB">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_KisPFqKkEearZfqmuVBQxQ" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Ki1_5qKkEearZfqmuVBQxQ" name="cptCatC">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Ki1_56KkEearZfqmuVBQxQ" value="0"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_KiPjBqKkEearZfqmuVBQxQ" name="StatCommissariat">
+          <eAnnotations xmi:id="_KiPjB6KkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_KiPjCKKkEearZfqmuVBQxQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_KiPjCaKkEearZfqmuVBQxQ" type="_KiPjBKKkEearZfqmuVBQxQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ki_J0KKkEearZfqmuVBQxQ" name="" memberEnd="_Ki_J0aKkEearZfqmuVBQxQ _KisO8aKkEearZfqmuVBQxQ">
+        <ownedEnd xmi:id="_Ki_J0aKkEearZfqmuVBQxQ" name="" type="_KiFyCKKkEearZfqmuVBQxQ" association="_Ki_J0KKkEearZfqmuVBQxQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ki_J06KkEearZfqmuVBQxQ" name="" memberEnd="_Ki_J1KKkEearZfqmuVBQxQ _KisO9aKkEearZfqmuVBQxQ">
+        <ownedEnd xmi:id="_Ki_J1KKkEearZfqmuVBQxQ" name="" type="_KiFyCKKkEearZfqmuVBQxQ" association="_Ki_J06KkEearZfqmuVBQxQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ki_J1qKkEearZfqmuVBQxQ" name="" memberEnd="_Ki_J16KkEearZfqmuVBQxQ _KisO-aKkEearZfqmuVBQxQ">
+        <ownedEnd xmi:id="_Ki_J16KkEearZfqmuVBQxQ" name="" type="_KiPi-6KkEearZfqmuVBQxQ" association="_Ki_J1qKkEearZfqmuVBQxQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ki_J2aKkEearZfqmuVBQxQ" name="" memberEnd="_Ki_J2qKkEearZfqmuVBQxQ _KisO_6KkEearZfqmuVBQxQ">
+        <ownedEnd xmi:id="_Ki_J2qKkEearZfqmuVBQxQ" name="" type="_KiPi-6KkEearZfqmuVBQxQ" association="_Ki_J2aKkEearZfqmuVBQxQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KhptH6KkEearZfqmuVBQxQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KhptIKKkEearZfqmuVBQxQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_KiZT8qKkEearZfqmuVBQxQ" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kiid_KKkEearZfqmuVBQxQ" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Kh8oAaKkEearZfqmuVBQxQ">
+      <eAnnotations xmi:id="_Kh8oAqKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Kh8oBqKkEearZfqmuVBQxQ" base_Element="_Kh8oAKKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Annotations xmi:id="_KiFx9KKkEearZfqmuVBQxQ" base_Element="_KiFx8KKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiFx9aKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiFx9qKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AL6KkEearZfqmuVBQxQ" value="&quot;698f37c5-2595-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KiFx96KkEearZfqmuVBQxQ" base_Element="_Kh8oAKKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiFx-KKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiFx-aKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AK6KkEearZfqmuVBQxQ" value="&quot;b5545af0-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KiFx-6KkEearZfqmuVBQxQ" base_Element="_KiFx-qKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Array xmi:id="_KiFyAaKkEearZfqmuVBQxQ" base_Element="_KiFx_aKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Annotations xmi:id="_KiFyAqKkEearZfqmuVBQxQ" base_Element="_KiFx_KKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiFyA6KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiFyBKKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AMaKkEearZfqmuVBQxQ" value="&quot;afe17bb5-2595-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KiFyBaKkEearZfqmuVBQxQ" base_Element="_KiFx-qKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiFyBqKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiFyB6KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AMKKkEearZfqmuVBQxQ" value="&quot;a240e2a5-2595-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KiFyCaKkEearZfqmuVBQxQ" base_Element="_KiFyCKKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Annotations xmi:id="_KiFyCqKkEearZfqmuVBQxQ" base_Element="_KiFyCKKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiFyC6KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiFyDKKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AMqKkEearZfqmuVBQxQ" value="&quot;b5545af1-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KiPi8KKkEearZfqmuVBQxQ" base_Element="_KiFyDaKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Annotations xmi:id="_KiPi9aKkEearZfqmuVBQxQ" base_Element="_KiPi8aKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiPi9qKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiPi96KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AOaKkEearZfqmuVBQxQ" value="&quot;732e7a05-2595-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KiPi-KKkEearZfqmuVBQxQ" base_Element="_KiFyDaKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiPi-aKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiPi-qKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AN6KkEearZfqmuVBQxQ" value="&quot;b5545af4-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KiPi_KKkEearZfqmuVBQxQ" base_Element="_KiPi-6KkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Annotations xmi:id="_KiPi_qKkEearZfqmuVBQxQ" base_Element="_KiPi_aKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiPi_6KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiPjAKKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2APqKkEearZfqmuVBQxQ" value="&quot;819410c5-2594-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KiPjAaKkEearZfqmuVBQxQ" base_Element="_KiPi-6KkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiPjAqKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiPjA6KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AOqKkEearZfqmuVBQxQ" value="&quot;b5545afd-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KiPjBaKkEearZfqmuVBQxQ" base_Element="_KiPjBKKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Annotations xmi:id="_KiPjCqKkEearZfqmuVBQxQ" base_Element="_KiPjBqKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiPjC6KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiPjDKKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ASaKkEearZfqmuVBQxQ" value="&quot;2d3af3b5-2595-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KiPjDaKkEearZfqmuVBQxQ" base_Element="_KiPjBKKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiPjDqKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiPjD6KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AP6KkEearZfqmuVBQxQ" value="&quot;b5545afb-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_KiZT8aKkEearZfqmuVBQxQ" base_Element="_KiZT8KKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Reference xmi:id="_Kiid4KKkEearZfqmuVBQxQ" base_Element="_KiZT8qKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Kiid5aKkEearZfqmuVBQxQ" base_Element="_Kiid4aKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_Kiid5qKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_Kiid56KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ANaKkEearZfqmuVBQxQ" value="&quot;b5545aec-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Kiid8qKkEearZfqmuVBQxQ" base_Element="_Kiid6KKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_Kiid86KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_Kiid9KKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ANqKkEearZfqmuVBQxQ" value="&quot;ad5c8115-2594-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Kiid-aKkEearZfqmuVBQxQ" base_Element="_Kiid9aKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_Kiid-qKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_Kiid-6KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AOKKkEearZfqmuVBQxQ" value="&quot;b5545aed-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Kiid_aKkEearZfqmuVBQxQ" base_Element="_Kiid_KKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Annotations xmi:id="_KiieBaKkEearZfqmuVBQxQ" base_Element="_Kiid_qKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KiieBqKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KiieB6KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2APaKkEearZfqmuVBQxQ" value="&quot;46eeb795-2594-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KisO4aKkEearZfqmuVBQxQ" base_Element="_KisO4KKkEearZfqmuVBQxQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_KisO4qKkEearZfqmuVBQxQ" name="getCategorie" method="_Ki1_-KKkEearZfqmuVBQxQ">
+      <ownedParameter xmi:id="_KisO5aKkEearZfqmuVBQxQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_KisO46KkEearZfqmuVBQxQ" name="setCategorie" method="_Ki1_-qKkEearZfqmuVBQxQ">
+      <ownedParameter xmi:id="_KisO5KKkEearZfqmuVBQxQ" name="value">
+        <eAnnotations xmi:id="_KisO6aKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_KisO6qKkEearZfqmuVBQxQ" key="final"/>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_KisO5qKkEearZfqmuVBQxQ" base_Element="_KisO4KKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisO56KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisO6KKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ALKKkEearZfqmuVBQxQ" value="&quot;b5545ae9-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KisO66KkEearZfqmuVBQxQ" base_Element="_KisO4qKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisO7KKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisO7aKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ALaKkEearZfqmuVBQxQ" value="&quot;086b9165-2597-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KisO7qKkEearZfqmuVBQxQ" base_Element="_KisO46KkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisO76KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisO8KKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ALqKkEearZfqmuVBQxQ" value="&quot;08f082b5-2597-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KisO8qKkEearZfqmuVBQxQ" base_Element="_KisO8aKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisO86KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisO9KKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AM6KkEearZfqmuVBQxQ" value="&quot;b5545afc-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KisO9qKkEearZfqmuVBQxQ" base_Element="_KisO9aKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisO96KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisO-KKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ANKKkEearZfqmuVBQxQ" value="&quot;b5545af7-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KisO_KKkEearZfqmuVBQxQ" base_Element="_KisO-aKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisO_aKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisO_qKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AO6KkEearZfqmuVBQxQ" value="&quot;b5545ae8-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KisPAKKkEearZfqmuVBQxQ" base_Element="_KisO_6KkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisPAaKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisPAqKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2APKKkEearZfqmuVBQxQ" value="&quot;b5545aee-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KisPBaKkEearZfqmuVBQxQ" base_Element="_KisPA6KkEearZfqmuVBQxQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_KisPBqKkEearZfqmuVBQxQ" name="getCptCatA" method="_Ki2AGaKkEearZfqmuVBQxQ">
+      <ownedParameter xmi:id="_KisPCaKkEearZfqmuVBQxQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_KisPB6KkEearZfqmuVBQxQ" name="setCptCatA" method="_Ki2AG6KkEearZfqmuVBQxQ">
+      <ownedParameter xmi:id="_KisPCKKkEearZfqmuVBQxQ" name="value">
+        <eAnnotations xmi:id="_KisPDaKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_KisPDqKkEearZfqmuVBQxQ" key="final"/>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_KisPCqKkEearZfqmuVBQxQ" base_Element="_KisPA6KkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisPC6KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisPDKKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AQKKkEearZfqmuVBQxQ" value="&quot;b5545af8-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KisPD6KkEearZfqmuVBQxQ" base_Element="_KisPBqKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisPEKKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisPEaKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AQaKkEearZfqmuVBQxQ" value="&quot;fc6605c5-2596-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_KisPEqKkEearZfqmuVBQxQ" base_Element="_KisPB6KkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisPE6KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisPFKKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AQqKkEearZfqmuVBQxQ" value="&quot;fd112ac5-2596-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KisPF6KkEearZfqmuVBQxQ" base_Element="_KisPFaKkEearZfqmuVBQxQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_KisPGKKkEearZfqmuVBQxQ" name="getCptCatB" method="_Ki2AH6KkEearZfqmuVBQxQ">
+      <ownedParameter xmi:id="_KisPG6KkEearZfqmuVBQxQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_KisPGaKkEearZfqmuVBQxQ" name="setCptCatB" method="_Ki2AIaKkEearZfqmuVBQxQ">
+      <ownedParameter xmi:id="_KisPGqKkEearZfqmuVBQxQ" name="value">
+        <eAnnotations xmi:id="_KisPH6KkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_KisPIKKkEearZfqmuVBQxQ" key="final"/>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_KisPHKKkEearZfqmuVBQxQ" base_Element="_KisPFaKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_KisPHaKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_KisPHqKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AQ6KkEearZfqmuVBQxQ" value="&quot;b5545af3-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Ki1_4KKkEearZfqmuVBQxQ" base_Element="_KisPGKKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_Ki1_4aKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_Ki1_4qKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ARKKkEearZfqmuVBQxQ" value="&quot;00751d45-2597-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Ki1_46KkEearZfqmuVBQxQ" base_Element="_KisPGaKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_Ki1_5KKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_Ki1_5aKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ARaKkEearZfqmuVBQxQ" value="&quot;012f8a25-2597-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ki1_6KKkEearZfqmuVBQxQ" base_Element="_Ki1_5qKkEearZfqmuVBQxQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Ki1_6aKkEearZfqmuVBQxQ" name="getCptCatC" method="_Ki2AJaKkEearZfqmuVBQxQ">
+      <ownedParameter xmi:id="_Ki1_7KKkEearZfqmuVBQxQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Ki1_6qKkEearZfqmuVBQxQ" name="setCptCatC" method="_Ki2AJ6KkEearZfqmuVBQxQ">
+      <ownedParameter xmi:id="_Ki1_66KkEearZfqmuVBQxQ" name="value">
+        <eAnnotations xmi:id="_Ki1_8KKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_Ki1_8aKkEearZfqmuVBQxQ" key="final"/>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_Ki1_7aKkEearZfqmuVBQxQ" base_Element="_Ki1_5qKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_Ki1_7qKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_Ki1_76KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ARqKkEearZfqmuVBQxQ" value="&quot;b5545afe-2593-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Ki1_8qKkEearZfqmuVBQxQ" base_Element="_Ki1_6aKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_Ki1_86KkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_Ki1_9KKkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2AR6KkEearZfqmuVBQxQ" value="&quot;037bd955-2597-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Ki1_9aKkEearZfqmuVBQxQ" base_Element="_Ki1_6qKkEearZfqmuVBQxQ">
+    <annotations xmi:id="_Ki1_9qKkEearZfqmuVBQxQ" name="objid">
+      <annotationParameters xmi:id="_Ki1_96KkEearZfqmuVBQxQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Ki2ASKKkEearZfqmuVBQxQ" value="&quot;03f79f85-2597-11e2-9612-0800270b393c&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_Ki1_-KKkEearZfqmuVBQxQ" name="getCategorie" specification="_KisO4qKkEearZfqmuVBQxQ">
+    <ownedParameter xmi:id="_Ki1_-aKkEearZfqmuVBQxQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.categorie;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Ki1_-qKkEearZfqmuVBQxQ" name="setCategorie" specification="_KisO46KkEearZfqmuVBQxQ">
+    <ownedParameter xmi:id="_Ki1_-6KkEearZfqmuVBQxQ" name="value">
+      <eAnnotations xmi:id="_Ki1__KKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_Ki1__aKkEearZfqmuVBQxQ" key="final"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.categorie = value;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Ki2AGaKkEearZfqmuVBQxQ" name="getCptCatA" specification="_KisPBqKkEearZfqmuVBQxQ">
+    <ownedParameter xmi:id="_Ki2AGqKkEearZfqmuVBQxQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.cptCatA;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Ki2AG6KkEearZfqmuVBQxQ" name="setCptCatA" specification="_KisPB6KkEearZfqmuVBQxQ">
+    <ownedParameter xmi:id="_Ki2AHKKkEearZfqmuVBQxQ" name="value">
+      <eAnnotations xmi:id="_Ki2AHaKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_Ki2AHqKkEearZfqmuVBQxQ" key="final"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.cptCatA = value;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Ki2AH6KkEearZfqmuVBQxQ" name="getCptCatB" specification="_KisPGKKkEearZfqmuVBQxQ">
+    <ownedParameter xmi:id="_Ki2AIKKkEearZfqmuVBQxQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.cptCatB;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Ki2AIaKkEearZfqmuVBQxQ" name="setCptCatB" specification="_KisPGaKkEearZfqmuVBQxQ">
+    <ownedParameter xmi:id="_Ki2AIqKkEearZfqmuVBQxQ" name="value">
+      <eAnnotations xmi:id="_Ki2AI6KkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_Ki2AJKKkEearZfqmuVBQxQ" key="final"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.cptCatB = value;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Ki2AJaKkEearZfqmuVBQxQ" name="getCptCatC" specification="_Ki1_6aKkEearZfqmuVBQxQ">
+    <ownedParameter xmi:id="_Ki2AJqKkEearZfqmuVBQxQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.cptCatC;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_Ki2AJ6KkEearZfqmuVBQxQ" name="setCptCatC" specification="_Ki1_6qKkEearZfqmuVBQxQ">
+    <ownedParameter xmi:id="_Ki2AKKKkEearZfqmuVBQxQ" name="value">
+      <eAnnotations xmi:id="_Ki2AKaKkEearZfqmuVBQxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_Ki2AKqKkEearZfqmuVBQxQ" key="final"/>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.cptCatC = value;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_Ki_J0qKkEearZfqmuVBQxQ" base_Element="_Ki_J0KKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Reference xmi:id="_Ki_J1aKkEearZfqmuVBQxQ" base_Element="_Ki_J06KkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Reference xmi:id="_Ki_J2KKkEearZfqmuVBQxQ" base_Element="_Ki_J1qKkEearZfqmuVBQxQ"/>
+  <UMLLabProfile:Reference xmi:id="_Ki_J26KkEearZfqmuVBQxQ" base_Element="_Ki_J2aKkEearZfqmuVBQxQ"/>
+</xmi:XMI>

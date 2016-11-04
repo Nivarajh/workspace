@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="uml2java" default="build" >
+  <path id="project.classpath">
+    <pathelement location="C:\MOOavecModelioOpenSource\td3amende\mda\JavaDesigner/bin/javadesigner.jar"/>
+    <pathelement location="C:\MOOavecModelioOpenSource\td3amende\bin"/>
+    <pathelement location="C:\Program Files\Java\jdk1.7.0_02\jre\lib\rt.jar"/>
+  </path>
+    <target name="init" >
+        <echo message="Initializing Ant properties"/>
+        <property name="generation.path" location="C:\MOOavecModelioOpenSource\td3amende\src"/>
+        <property name="compilation.path" location="C:\MOOavecModelioOpenSource\td3amende\bin"/>
+        <property name="JNIout" location="C:\MOOavecModelioOpenSource\td3amende\src"/>
+    </target>
+    <target name="clean" depends="init"> 
+        <delete>
+            <fileset dir="${compilation.path}">
+                <include name="**/*.class"/>
+            </fileset>
+        </delete>
+    </target>
+    <target name="resources" depends="init">
+        <echo message="Copying resources"/>
+    </target>
+    <target name="build" depends="init, resources ">
+        <echo message="Building *.java"/>
+        <javac srcdir="${generation.path}" destdir="${compilation.path}">
+            <classpath refid="project.classpath"/>
+            <include name="**/*.java"/>
+        </javac>
+    </target>
+    <target name="archive" depends="build">
+        <echo message="Archiving jar file"/>
+        <mkdir dir="C:\MOOavecModelioOpenSource\td3amende\bin"/>
+        <jar destfile="C:\MOOavecModelioOpenSource\td3amende\bin\uml2java.jar" index="true" >
+            <manifest>
+                <attribute name="Built-By" value="Modelio"/>
+                <attribute name="Main-Class" value="exoAmende.ClassMain"/>
+            </manifest>
+            <fileset dir="${compilation.path}">
+                <include name="**/*.class"/>
+            </fileset>
+        </jar>
+    </target>
+    <target name="rmi" depends="build">
+        <rmic base="${compilation.path}">
+        </rmic>
+    </target>
+</project>

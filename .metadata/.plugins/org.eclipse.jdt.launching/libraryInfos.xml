@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\eleves\java64\jre8u51" version="1.8.0_51">
+<bootpath>
+<entry path="C:\eleves\java64\jre8u51\lib\resources.jar"/>
+<entry path="C:\eleves\java64\jre8u51\lib\rt.jar"/>
+<entry path="C:\eleves\java64\jre8u51\lib\sunrsasign.jar"/>
+<entry path="C:\eleves\java64\jre8u51\lib\jsse.jar"/>
+<entry path="C:\eleves\java64\jre8u51\lib\jce.jar"/>
+<entry path="C:\eleves\java64\jre8u51\lib\charsets.jar"/>
+<entry path="C:\eleves\java64\jre8u51\lib\jfr.jar"/>
+<entry path="C:\eleves\java64\jre8u51\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\eleves\java64\jre8u51\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\eleves\java64\jre8u51\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

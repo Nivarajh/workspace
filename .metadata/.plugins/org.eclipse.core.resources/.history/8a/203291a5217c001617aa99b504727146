@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<H1>Coucou</H1>
+
+<form method="post" action="Login" >
+
+<input type="text" name="name"/>
+<input type="text" name="password"/>
+
+<input type="submit" value="Valider" name="valider"/>
+
+
+
+</form>
+
+</body>
+</html>

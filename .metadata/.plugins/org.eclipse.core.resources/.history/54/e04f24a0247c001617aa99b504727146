@@ -1,0 +1,35 @@
+package Model;
+
+public class ContactService 
+{
+
+	public ContactService()
+	{
+		
+		
+	}
+	
+	public void createContact()
+	{
+		ContactDAO dao = new ContactDAO();
+		
+	}
+	
+	public void researchContact()
+	{
+		ContactDAO dao = new ContactDAO();
+		
+	}
+	
+	public void updateContact()
+	{
+		ContactDAO dao = new ContactDAO();
+		
+	}
+	
+	public void DeleteContact()
+	{
+		ContactDAO dao = new ContactDAO();
+		
+	}
+}

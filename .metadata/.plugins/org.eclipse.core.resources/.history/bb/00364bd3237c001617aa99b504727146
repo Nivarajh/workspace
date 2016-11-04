@@ -1,0 +1,11 @@
+package Model;
+
+public class ContactDAO 
+{
+
+	public ContactDAO()
+	{
+		
+		System.out.println("Votre contact à bien été ajouté!");
+	}
+}

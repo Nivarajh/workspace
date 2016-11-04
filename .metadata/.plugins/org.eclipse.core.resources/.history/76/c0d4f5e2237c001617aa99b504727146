@@ -1,0 +1,37 @@
+package Model;
+
+public class ContactDAO 
+{
+
+	public ContactDAO()
+	{
+		
+		
+	}
+	
+	public void CreateContact()
+	{
+		
+		System.out.println("Votre contact à bien été ajouté!");
+	}
+	
+	public void ResearchContact()
+	{
+		
+		System.out.println("Votre contact à bien été ajouté!");
+	}
+	
+	public void UpdateContact()
+	{
+		
+		System.out.println("Votre contact à bien été ajouté!");
+	}
+	
+	public void DeleteContact()
+	{
+		
+		System.out.println("Votre contact à bien été ajouté!");
+	}
+	
+	
+}

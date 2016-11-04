@@ -1,0 +1,9 @@
+
+public class Registre {
+
+	public long[] get() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
